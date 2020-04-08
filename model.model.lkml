@@ -9,6 +9,7 @@ include: "//project_brain/*view"
 # # and define the joins that connect them together.
 #
 explore: sensory {
+  label: "Eyes"
   extends: [sensory]
   from: sensory
   join: eyes {
